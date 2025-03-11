@@ -18,7 +18,7 @@ int index = 0;
 
 Console.WriteLine($"File name: {filePath}");
 Console.WriteLine("----");
-Console.WriteLine("File type: waw");
+Console.WriteLine("File type: wav");
 Console.WriteLine("----");
 
 if (file[index++] != 'R' || file[index++] != 'I' || file[index++] != 'F' || file[index++] != 'F')
